@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+Unit Converter | StudyHub
+</title>
+
+<link rel="stylesheet" href="../style.css">
+
+<link rel="stylesheet" href="unit.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+📚 StudyHub
+</div>
+
+
+<nav>
+
+<a href="../index.html">
+Home
+</a>
+
+<a href="binary-converter.html">
+Binary Converter
+</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<div class="unit-container">
+
+
+<h1>
+Unit Converter
+</h1>
+
+
+<p>
+Convert length, weight and temperature easily.
+</p>
+
+
+
+
+<label>
+Category
+</label>
+
+
+<select id="category" onchange="changeUnits()">
+
+
+<option value="length">
+Length
+</option>
+
+
+<option value="weight">
+Weight
+</option>
+
+
+<option value="temperature">
+Temperature
+</option>
+
+
+</select>
+
+
+
+
+
+<div class="converter-box">
+
+
+<input 
+type="number"
+id="value"
+placeholder="Enter value"
+>
+
+
+<select id="fromUnit">
+
+</select>
+
+
+<span>
+to
+</span>
+
+
+<select id="toUnit">
+
+</select>
+
+
+
+<button onclick="convertUnit()">
+
+Convert
+
+</button>
+
+
+
+</div>
+
+
+
+
+
+<div class="result">
+
+
+<h2 id="result">
+
+Result will appear here
+
+</h2>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+<script src="unit.js"></script>
+
+
+</body>
+
+</html>

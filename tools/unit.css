@@ -1,0 +1,75 @@
+.unit-container{
+
+max-width:700px;
+
+margin:50px auto;
+
+background:white;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 5px 20px rgba(0,0,0,.1);
+
+}
+
+
+.unit-container select,
+.unit-container input{
+
+width:100%;
+
+padding:12px;
+
+margin:10px 0;
+
+font-size:16px;
+
+border-radius:8px;
+
+border:1px solid #ccc;
+
+}
+
+
+
+.converter-box button{
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:12px 25px;
+
+border-radius:8px;
+
+cursor:pointer;
+
+margin-top:15px;
+
+}
+
+
+
+.result{
+
+margin-top:30px;
+
+background:#f1f5f9;
+
+padding:20px;
+
+border-radius:10px;
+
+}
+
+
+
+#result{
+
+color:#2563eb;
+
+}

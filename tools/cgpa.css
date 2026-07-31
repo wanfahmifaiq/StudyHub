@@ -1,0 +1,129 @@
+.cgpa-container{
+    max-width:1100px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.subtitle{
+    color:#666;
+    margin-bottom:25px;
+}
+
+.semester{
+    background:#fff;
+    border-radius:12px;
+    padding:20px;
+    margin-bottom:30px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.semester-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.semester-header h2{
+    margin:0;
+}
+
+.subject-table{
+    width:100%;
+    border-collapse:collapse;
+    margin-bottom:15px;
+}
+
+.subject-table th,
+.subject-table td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+.subject-table input,
+.subject-table select{
+    width:95%;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    box-sizing:border-box;
+}
+
+.buttons{
+    margin:30px 0;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.primary,
+.success,
+.add-subject,
+.delete-btn{
+    border:none;
+    padding:12px 18px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+.primary{
+    background:#2563eb;
+    color:white;
+}
+
+.success{
+    background:#16a34a;
+    color:white;
+}
+
+.add-subject{
+    background:#f59e0b;
+    color:white;
+}
+
+.delete-btn{
+    background:#dc2626;
+    color:white;
+}
+
+.result-card{
+    background:white;
+    border-radius:12px;
+    padding:20px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+#cgpaResult{
+    color:#2563eb;
+    font-size:30px;
+}
+
+.semester-gpa{
+    margin-top:10px;
+    font-weight:bold;
+    color:#16a34a;
+}
+
+@media(max-width:768px){
+
+.subject-table{
+    font-size:14px;
+}
+
+.subject-table input,
+.subject-table select{
+    font-size:14px;
+}
+
+.buttons{
+    flex-direction:column;
+}
+
+.primary,
+.success{
+    width:100%;
+}
+
+}

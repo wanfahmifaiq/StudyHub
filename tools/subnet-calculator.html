@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Subnet Calculator | StudyHub</title>
+
+<meta name="description" content="Free IPv4 subnet calculator. Calculate network address, broadcast address and usable IP range.">
+
+<link rel="stylesheet" href="../style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<div class="logo">
+📚 StudyHub
+</div>
+
+
+<nav>
+
+<a href="../index.html">Home</a>
+
+<a href="../search.html">Search</a>
+
+</nav>
+
+
+</header>
+
+
+
+
+
+<section class="article-page">
+
+
+<h1>
+IPv4 Subnet Calculator
+</h1>
+
+
+<p>
+Calculate network information from an IP address and CIDR prefix.
+</p>
+
+
+
+<div class="calculator">
+
+
+<label>
+IP Address
+</label>
+
+
+<input id="ip" placeholder="Example: 192.168.1.10">
+
+
+
+<label>
+CIDR Prefix
+</label>
+
+
+<input id="cidr" placeholder="Example: 24">
+
+
+
+<button onclick="calculateSubnet()">
+Calculate
+</button>
+
+
+
+<div id="result">
+
+</div>
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 StudyHub
+</p>
+
+</footer>
+
+
+
+<script src="subnet.js"></script>
+
+
+</body>
+
+</html>

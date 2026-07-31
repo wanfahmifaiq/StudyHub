@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CGPA Calculator | StudyHub</title>
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="cgpa.css">
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">📚 StudyHub</div>
+
+<nav id="navMenu">
+    <a href="../index.html">Home</a>
+    <a href="subnet-calculator.html">Subnet Calculator</a>
+</nav>
+
+</header>
+
+<div class="cgpa-container">
+
+<h1>CGPA Calculator</h1>
+
+<p class="subtitle">
+Add semesters, then add your subjects. The calculator will automatically calculate GPA and CGPA.
+</p>
+
+<div id="semesterContainer">
+
+</div>
+
+<div class="buttons">
+
+<button onclick="addSemester()" class="primary">
+➕ Add Semester
+</button>
+
+<button onclick="calculateCGPA()" class="success">
+🎓 Calculate CGPA
+</button>
+
+</div>
+
+<div class="result-card">
+
+<h2>Your Result</h2>
+
+<h3 id="cgpaResult">
+CGPA : 0.00
+</h3>
+
+<div id="semesterResults">
+
+</div>
+
+</div>
+
+</div>
+
+<script src="cgpa.js"></script>
+
+</body>
+</html>
