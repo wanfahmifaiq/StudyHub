@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>
+StudyHub - Free Study Notes, Programming Tutorials & Student Tools
+</title>
+
+<meta name="description" content="StudyHub provides free study notes, programming tutorials, calculators and learning resources for students.">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+
+<div class="logo">
+📚 StudyHub
+</div>
+
+
+
+<button class="menu-btn" onclick="toggleMenu()">
+
+☰
+
+</button>
+
+
+
+
+<nav id="navMenu">
+
+
+<a href="index.html">
+Home
+</a>
+
+
+
+<div class="dropdown">
+
+
+<a href="#">
+Categories ▾
+</a>
+
+
+<div class="dropdown-content">
+
+
+<a href="categories/computer-science.html">
+Computer Science
+</a>
+
+
+<a href="#">
+Programming
+</a>
+
+
+<a href="#">
+Mathematics
+</a>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<a href="tools/subnet-calculator.html">
+Tools
+</a>
+
+
+
+<a href="#">
+About
+</a>
+
+
+
+<button onclick="darkMode()" class="dark-btn">
+
+🌙
+
+</button>
+
+
+
+</nav>
+
+
+
+</header>
+
+
+
+
+
+<section class="hero">
+
+
+<h1>
+Free Notes, Tutorials & Tools For Students
+</h1>
+
+
+<p>
+Learn Programming, Mathematics, Computer Science and More
+</p>
+
+
+
+<div class="search-box">
+
+<input 
+id="search"
+placeholder="Search topics... Example: TCP/IP, Java, Integration"
+>
+
+
+<button onclick="search()">
+Search
+</button>
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<section class="container">
+
+
+<h2>
+🔥 Popular Searches
+</h2>
+
+
+<div class="tags">
+
+
+<span>OSI Model</span>
+
+<span>Java OOP</span>
+
+<span>Subnet Calculator</span>
+
+<span>Integration</span>
+
+<span>Python Tutorial</span>
+
+<span>CGPA Calculator</span>
+
+
+</div>
+
+
+</section>
+
+
+
+<section class="container">
+
+
+<h2>
+🛠 Free Student Tools
+</h2>
+
+
+<div class="grid">
+
+
+
+<div class="card tool">
+
+<h3>
+Subnet Calculator
+</h3>
+
+<p>
+Calculate IP addresses easily.</p>
+
+<a href="tools/subnet-calculator.html">
+
+<button>
+Use Calculator
+</button>
+
+</a>
+
+</div>
+
+
+
+
+<div class="card tool">
+
+<h3>CGPA Calculator</h3>
+
+<p>Calculate your cumulative GPA.</p>
+
+<a href="tools/cgpa-calculator.html">
+
+<button>Open Calculator</button>
+
+</a>
+
+</div>
+
+
+
+
+
+<div class="card tool">
+
+<h3>
+Binary Converter
+</h3>
+
+<p>
+Convert Binary and Decimal numbers instantly.
+</p>
+
+<a href="tools/binary-converter.html">
+
+<button>
+
+Open Tool
+
+</button>
+
+</a>
+
+</div>
+
+
+
+
+<div class="card tool">
+
+<h3>
+Unit Converter
+</h3>
+
+<p>
+Convert length, weight and temperature units.
+</p>
+
+<a href="tools/unit-converter.html">
+
+<button>
+Open Tool
+</button>
+
+</a>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+<section class="container">
+
+
+<h2>
+📖 Study Categories
+</h2>
+
+
+
+<div class="grid">
+
+
+
+<div class="card">
+
+<h3>
+
+<a href="categories/computer-science.html">
+
+💻 Computer Science
+
+</a>
+
+</h3>
+
+<p>
+Programming, Networking, Database, Cybersecurity.
+</p>
+
+</div>
+
+
+
+
+<div class="card">
+
+<h3>
+📐 Mathematics
+</h3>
+
+<p>
+Calculus, Algebra, Statistics and Formulas.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+☕ Programming
+</h3>
+
+<p>
+Java, Python, C++, Web Development.
+</p>
+
+</div>
+
+
+
+
+
+<div class="card">
+
+<h3>
+🎓 University Notes
+</h3>
+
+<p>
+Lecture notes, summaries and exam preparation.
+</p>
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="container">
+
+
+<h2>
+⭐ Latest Articles
+</h2>
+
+
+
+<div id="latestArticles" class="grid">
+
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+<section class="newsletter">
+
+
+<h2>
+Join StudyHub
+</h2>
+
+
+<p>
+Get new notes and tutorials when available.
+</p>
+
+
+<input placeholder="Enter email">
+
+<button>
+Subscribe
+</button>
+
+
+</section>
+
+
+
+
+
+
+
+<footer>
+
+
+<h3>
+📚 StudyHub
+</h3>
+
+
+<p>
+Making learning easier for everyone.
+</p>
+
+
+<p>
+© 2026 StudyHub
+</p>
+
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
